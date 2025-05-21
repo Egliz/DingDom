@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/foto_fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(6, 5, 5);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+h2 {
+    background-color: rgba(178, 240, 219, 0.957);
+    font-size: 50px;
+}
+
+aside {
+    font-size: 30px;
+    background-color: #f0f0f0e1;
+}
+
+p {
+    font-size: 40px;
+    color: #f7f6f6;
+    background-color: #1b1b1b32;
+}
+
+.intro {
+    padding: 2em;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    margin-top: 1em;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
