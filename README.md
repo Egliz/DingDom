@@ -3,7 +3,7 @@
 
 Este es un proyecto simple de un piano virtual creado con HTML y CSS. El objetivo es practicar diseño visual y posicionamiento con CSS, representando un teclado de piano interactivo en la pantalla.
 
-[👉 Mira como quedó la página]( )
+[👉 Mira como quedó la página](https://egliz.github.io/DingDom/ )
 
 ## 🛠️ Herramientas utilizadas
 
